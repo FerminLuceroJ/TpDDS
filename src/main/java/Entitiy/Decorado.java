@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public abstract class Decorado {
+public abstract class Decorado extends Producto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
